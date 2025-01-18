@@ -1,16 +1,15 @@
-body {
+body { 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,20 +35,12 @@ video {
 }
 
 .top_bar {
-    border-radius: 20px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.552); 
-    padding: 10px 20px;
-    position: fixed;
-    width: 50%;
-    left: 0;
-    right: 0;
-    z-index: 1;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px 28px;
+    width: fit-content;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
-
 }
 
 .list {
@@ -63,7 +54,7 @@ video {
     padding: 10px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     transition: color 0.3s;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
@@ -71,86 +62,107 @@ video {
 .nav_link:hover {
     cursor: pointer;
     color: rgb(255, 255, 255);
-    font-size: 21px;
+    font-size: 1.4rem;
 }
 
-.profile{
+.profile {
     background-color: white;
     padding: 30px 50px;
     border-radius: 50px;
     margin-top: 150px;
     width: fit-content;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0 20px rgba(54, 235, 255, 0.5),
-                0 0 30px rgba(42, 208, 255, 0.5),
-                0 0 40px rgba(37, 187, 255, 0.5);
+    align-items: center; 
+    box-shadow: 0 0 20px rgba(54, 203, 237, 0.5),
+                0 0 30px rgba(42, 234, 255, 0.3),
+                0 0 40px rgba(37, 216, 236, 0.3);
 }
 
-.photo-div{
+.photo {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
+    height: 150px; 
+    width: 150px; 
+    object-fit: cover; 
     margin: 0 30px;
 }
 
-.my-name{
-    flex-grow: 1;
+.my-name {
+    flex-grow: 1; 
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.5rem; 
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 .text {
-    margin:5px;
+    margin: 5px;
 }
 
-.about-me-div{
+.about-me-div {
     width: 100%;
     padding: 20px 0;
     background-color: white;
-    margin-top: 270px;
+    margin-top: 270px;   
 }
 
-
-.title{
+.title {
     text-align: center;
     text-decoration: underline;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     font-size: 2.5rem;
 }
-.text2{
+
+.text2 {
     text-align: center;
 }
 
-.skiills-div {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+
+
+.skills-div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     background-color: black;
-    width: 98.55vw;
+    width: 98.55vw; 
     padding: 60px 0;
-    margin: 0;
-    box-sizing: border-box ;
+    margin: 0; 
+    box-sizing: border-box;
     overflow: hidden;
 }
 
-.title2{
+
+
+
+.title2 {
     background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 98.55vw;
+    width: 98.55vw; 
     margin: 0;
     color: white;
     text-align: center;
     text-decoration: underline;
     text-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
+    font-size: 2.5rem;
+}
+
+
+.slide {
+    width: 60%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px; 
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+                0 0 30px rgba(255, 255, 255, 0.5),
+                0 0 40px rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     overflow: hidden;
 }
 
-.img{
+
+.img {
     width: 200px;
     height: 200px;
 }
+
+
